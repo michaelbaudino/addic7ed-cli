@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "addic7ed/cli/version"
+require "addic7ed-cli/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "addic7ed-cli"
-  spec.version       = Addic7ed::Cli::VERSION
+  spec.version       = Addic7edCLI::VERSION
   spec.authors       = ["Michael Baudino"]
   spec.email         = ["michael.baudino@alpine-lab.com"]
 
