@@ -1,3 +1,5 @@
+require "addic7ed"
+
 require "addic7ed-cli/version"
 
 module Addic7edCLI
