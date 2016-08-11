@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "addic7ed-cli"
+
+Addic7edCLI::Main.start(ARGV)

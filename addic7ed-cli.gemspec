@@ -14,12 +14,13 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/michaelbaudino/addic7ed-cli"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.files         = `git ls-files -z lib LICENSE.md`.split("\x0")
+  spec.bindir        = "bin"
+  spec.executables   = ["addic7ed"]
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "addic7ed", "~> 3.0.0-beta.3"
+  spec.add_runtime_dependency "addic7ed", "~> 3.0.0-beta.4"
+  spec.add_runtime_dependency "thor", "~> 0.19"
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
