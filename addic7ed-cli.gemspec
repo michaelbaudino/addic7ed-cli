@@ -20,9 +20,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "addic7ed", "~> 3.0.0-beta.4"
-  spec.add_runtime_dependency "thor", "~> 0.19"
+  spec.add_runtime_dependency "thor",     "~> 0.19"
 
   spec.add_development_dependency "bundler", "~> 1.12"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "rake",    "~> 10.0"
+  spec.add_development_dependency "rspec",   "~> 3.5"
+  spec.add_development_dependency "rubocop", "~> 0.42"
 end
