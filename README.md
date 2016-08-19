@@ -1,5 +1,11 @@
 # Addic7ed CLI
 
+[![Dependency Status](https://gemnasium.com/badges/github.com/michaelbaudino/addic7ed-cli.svg)](https://gemnasium.com/github.com/michaelbaudino/addic7ed-cli)
+[![Build Status](https://travis-ci.org/michaelbaudino/addic7ed-cli.svg?branch=master)](https://travis-ci.org/michaelbaudino/addic7ed-cli)
+[![Code Climate](https://codeclimate.com/github/michaelbaudino/addic7ed-cli/badges/gpa.svg)](https://codeclimate.com/github/michaelbaudino/addic7ed-cli)
+[![security](https://hakiri.io/github/michaelbaudino/addic7ed-cli/master.svg)](https://hakiri.io/github/michaelbaudino/addic7ed-cli/master)
+[![Gem Version](https://badge.fury.io/rb/addic7ed-cli.svg)](http://badge.fury.io/rb/addic7ed-cli)
+
 This CLI tool uses [addic7ed-ruby](https://github.com/michaelbaudino/addic7ed-ruby) to download
 subtitles from [Addi7ed](https://www.addic7ed.com).
 
