@@ -6,13 +6,12 @@
 [![security](https://hakiri.io/github/michaelbaudino/addic7ed-cli/master.svg)](https://hakiri.io/github/michaelbaudino/addic7ed-cli/master)
 [![Gem Version](https://badge.fury.io/rb/addic7ed-cli.svg)](http://badge.fury.io/rb/addic7ed-cli)
 
-This CLI tool uses [addic7ed-ruby](https://github.com/michaelbaudino/addic7ed-ruby) to download
-subtitles from [Addi7ed](https://www.addic7ed.com).
+This CLI tool uses [addic7ed-ruby](https://github.com/michaelbaudino/addic7ed-ruby) to download subtitles from [Addi7ed](https://www.addic7ed.com).
 
 ## Installation
 
 ```shell
-  $ gem install addic7ed-cli
+$ gem install addic7ed-cli
 ```
 
 ## Usage
