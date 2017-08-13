@@ -3,4 +3,4 @@
 
 require "addic7ed/cli"
 
-Addic7ed::CLI.start(ARGV)
+Addic7ed::CLI::Main.start(ARGV)
