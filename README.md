@@ -10,9 +10,19 @@ This CLI tool uses [addic7ed-ruby](https://github.com/michaelbaudino/addic7ed-ru
 
 ## Installation
 
-```shell
-$ gem install addic7ed-cli
-```
+1. Install it:
+
+    ```bash
+    $ gem install addic7ed-cli
+    ```
+
+2. Use it (e.g. to download a French subtitle for a "Californication" episode):
+
+    ```bash
+    $ addic7ed -l fr /path/to/Californication.S06E07.720p.HDTV.x264-2HD.mkv
+    ```
+3. A wild `Californication.S06E07.720p.HDTV.x264-2HD.fr.srt` file appears
+4. Enjoy your show :tv:
 
 ## Usage
 
@@ -26,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/addic7ed-cli. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/addic7ed-cli. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct (see `CODE_OF_CONDUCT.md` file).
 
 ## License
 
