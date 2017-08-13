@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
-require "addic7ed-cli"
+require "addic7ed/cli"
 
-Addic7edCLI::Main.start(ARGV)
+Addic7ed::CLI.start(ARGV)
